@@ -1,11 +1,11 @@
 # Lab: Configure a Static IPv4 Address with `nmcli`
 
-**Series:** linux-ops-mastery — RHCSA Networking
-**Subjects covered:** NetworkManager connection profiles, `nmcli con show`, `nmcli con mod` for `ipv4.method`, `ipv4.addresses`, `ipv4.gateway`, `ipv4.dns`, `nmcli con up`, `ip addr`, `ip route`, avoiding SSH lockout during changes
-**Career arcs covered:** RHCSA (EX200 network reconfiguration tasks), RHCE (Ansible `community.general.nmcli`), SRE (incident triage on misconfigured NICs), DevOps (immutable infra vs ad-hoc fixes), AI/MLOps (GPU nodes with fixed management IPs)
-**Prerequisite:** SSH or console access to a RHEL 9 VM; basic comfort with `sudo` and shell variables
-**Time Estimate:** 35 to 50 minutes
-**Difficulty arc:** Task 1 foundation · 2–3 nmcli static IPv4 core split · 4–5 verify with `ip` · 6 exam-realistic capstone
+- **Series:** linux-ops-mastery — RHCSA Networking
+- **Subjects covered:** NetworkManager connection profiles, `nmcli con show`, `nmcli con mod` for `ipv4.method`, `ipv4.addresses`, `ipv4.gateway`, `ipv4.dns`, `nmcli con up`, `ip addr`, `ip route`, avoiding SSH lockout during changes
+- **Career arcs covered:** RHCSA (EX200 network reconfiguration tasks), RHCE (Ansible `community.general.nmcli`), SRE (incident triage on misconfigured NICs), DevOps (immutable infra vs ad-hoc fixes), AI/MLOps (GPU nodes with fixed management IPs)
+- **Prerequisite:** SSH or console access to a RHEL 9 VM; basic comfort with `sudo` and shell variables
+- **Time Estimate:** 35 to 50 minutes
+- **Difficulty arc:** Task 1 foundation · 2–3 nmcli static IPv4 core split · 4–5 verify with `ip` · 6 exam-realistic capstone
 
 ---
 
